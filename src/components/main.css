@@ -1,0 +1,66 @@
+.main{
+    padding: 30px;
+    display:flex;
+    flex-direction:column;
+    /* border:2px solid black; */
+}
+
+.main> .hero{
+    max-width:400px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto  */
+    align-self: center;
+}
+.main > h1{
+    margin:16px 0px;
+}
+
+
+
+
+/* this is card section */
+
+.card{
+    max-width:300px;
+}
+
+.card--img{
+    width:300px;
+}
+
+.card--bg {
+    position: relative;
+}
+.card--star{
+    width: 15px;
+}
+
+.card--bg > .card--indicator{
+    position: absolute;
+    top:10px;
+    left:10px;
+    padding: 3px;
+    background: #FFFFFF;
+    color: #222222;
+    border-radius: 5%;
+}
+
+.card--inc{
+font-size:large;
+}
+.card > .card--rankinglist > svg{
+    padding: 4px 4px;
+    
+}
+.card--light{
+    font-family: "Poppins", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.card--dark{
+        font-family: "Poppins", system-ui;
+        font-weight: 600;
+        font-style: normal;
+}
