@@ -3,9 +3,9 @@ import "./app.css";
 import Footer from "./components/Footer.jsx";
 import Main from "./components/Main.jsx";
 import Card from "./components/Card.jsx";
-import img1 from "../public/card1img.png";
-import img2 from "../public/card2img.png";
-import img3 from "../public/card3img.png";
+import img1 from "./assets/card1img.png";
+import img2 from "./assets/card2img.png";
+import img3 from "./assets/card3img.png";
 
 
 
@@ -31,7 +31,7 @@ export default function App(){
 // img,indicator,rating,quantity,country,description,price
 var cards=[
     {
-        image:{img1},
+        image:img1,
         indicator:"SOLD OUT",
         rating:5.0,
         quantity:6,
@@ -40,7 +40,7 @@ var cards=[
         price:136
     },
     {
-        image:{img2},
+        image:img2,
         indicator:"ONLINE",
         rating:5.0,
         quantity:30,
@@ -50,7 +50,7 @@ var cards=[
     }
     ,
     {
-        image:{img3},
+        image:img3,
         indicator:"SOLD OUT",
         rating:4.8,
         quantity:2,
@@ -60,7 +60,7 @@ var cards=[
     }
     ,
     {
-        image:{img1},
+        image:img1,
         indicator:"SOLD OUT",
         rating:5.0,
         quantity:6,
@@ -69,7 +69,7 @@ var cards=[
         price:136
     },
     {
-        image:{img2},
+        image:img2,
         indicator:"ONLINE",
         rating:5.0,
         quantity:30,
@@ -79,7 +79,7 @@ var cards=[
     }
     ,
     {
-        image:{img3},
+        image:img3,
         indicator:"SOLD OUT",
         rating:4.8,
         quantity:2,
