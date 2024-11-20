@@ -3,12 +3,12 @@ import star from "../assets/star.png";
 
 
 export default function Card(props){
-    console.log(props.x);
+    // console.log(props.x.image);
     return (
         <div className="main card">
 
             <div className="card--bg">
-              <img src={props.x.image} className="card--img" />
+              <img src={props.x.image} className="card--img" alt="card"/>
                 {props.x.indicator && <p className="card--indicator">{props.x.indicator}</p>}
             </div>
 
