@@ -28,7 +28,7 @@ export default function App(){
 // img,indicator,rating,quantity,country,description,price
 var cards = [
     {
-      image: "/images/card1img.png",
+      image: "public/images/card1img.png",
       indicator: "SOLD OUT",
       rating: 5.0,
       quantity: 6,
